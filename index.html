@@ -116,9 +116,10 @@ a {
   padding-bottom: 20px;
 }
 .gift-img-wrap img {
-    width: 180px;
-    height: 220px;
+    width: 170px;
+    height: 200px;
     border-radius: 50px;
+    margin-left: 7px;
 }
 .frase {
   text-align: center;
@@ -155,9 +156,10 @@ ul {
 }
 
 .icons {
-  width: 50px;
-  height: 50px;
+    width: 48px;
+    height: 48px;
   color: #ffffff;
+  border-radius: 50%;
 }
 
 li .frase {
@@ -337,7 +339,7 @@ li {
 }
 
 #modal-vestimenta {
-  background: url("../img/vestimenta.gif") no-repeat center center;
+  background: url("img/DressCode.png") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
@@ -871,7 +873,7 @@ li {
     const videoContainer    = document.querySelector('.video-container');
     const audio             = document.getElementById('audio');
 
-    const imagesToPreload = ['img/fundo-abertura.gif','img/vestimenta.gif','img/presentes.gif'];
+    const imagesToPreload = ['img/fundo-abertura.gif','img/Dress-Code.png','img/presentes.gif'];
     imagesToPreload.forEach(src => { const i = new Image(); i.src = src; });
 
     window.addEventListener('load', () => { video.load(); video.currentTime = 0; });
